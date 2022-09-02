@@ -1,0 +1,640 @@
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+body{
+
+    margin:0 auto;
+	text-align:center;
+	
+}
+
+
+
+h1{
+	font-size: 4em;
+	font-family:  'cwTeXYen', sans-serif;
+	font-weight: bold;
+}
+h2{
+	margin-top: -20px;
+	font-size: 2.2em;
+	font-family:  'cwTeXYen', sans-serif;
+	font-weight: bold;
+    line-height: 55px;
+}
+h4 {
+    text-align: left;
+    color: #DB4932;
+    font-family: 'cwTeXYen', sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    line-height: 48px;
+}
+	h5{
+	
+		text-align: center;
+		 color: #000000;
+		
+			font-size:2em;
+			font-weight: 800;
+			line-height: 2em;
+		
+		}
+p {
+	text-align: justify;
+	margin:10px 0 30px 0;
+	font-weight: 800;
+	font-size:1.3em;
+}
+
+button{
+	background-color: #EC6866;
+	border-style: none;
+	border-radius:20px;
+	color: #fff;
+	width: 150px;
+	text-align:center;
+
+
+}
+
+
+button p{ 
+    text-align: center;
+    line-height: 0px;
+    padding-top: 20px;
+	
+}
+button:hover{
+	background-color: #ec8785;
+	border-style: none;
+	border-radius:20px;
+	color: #fff;
+	width: 150px;
+	
+	text-align:center;
+
+}
+.edm_footer_001 .icon_list > li > p {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0.5em 0 0.5em 40px;
+    line-height: 1.5em;
+}
+.edm_footer_001 .svg {
+    fill: #fff;
+}
+.edm_footer_001 {
+   
+  background-color: #DB4932;
+}
+.edm_footer_001 .icon_list > li {
+    position: relative;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #f8f9fa;
+}
+.btm{
+	position:relative;
+	bottom: 0px;
+}
+
+.main-view{
+	mask: linear-gradient(#000, transparent) ;
+	padding-top: 100px;
+	min-height: 880px;
+height: calc(100vh - 50px);
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a7dcf7+0,ffffff+16,ffffff+84,f0c9ae+100 */
+background: #a7dcf7; /* Old browsers */
+background: -moz-linear-gradient(top,  #a7dcf7 0%, #ffffff 16%, #ffffff 84%, #f0c9ae 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #a7dcf7 0%,#ffffff 16%,#ffffff 84%,#f0c9ae 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #a7dcf7 0%,#ffffff 16%,#ffffff 84%,#f0c9ae 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7dcf7', endColorstr='#f0c9ae',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+
+.lion {
+    background-image: url(../images/lion.png);
+    background-position: center center;
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: -15vw;
+    right: 0%;
+    width: 58%;
+    height: 1488px;
+    /* min-width: 459px; */
+    transform-origin: 50% 0;
+    animation: swing 4s ease-in-out forwards infinite;
+}
+
+@keyframes swing {
+    0%{transform: rotate(3deg);}
+    50%{transform: rotate(0deg)}
+    100%{transform: rotate(3deg);}
+}
+
+.flexbutton{
+position: fixed;
+right: -1000PX;
+bottom:50vh;
+z-index: 1;
+cursor: pointer;
+}
+.att_bg ol{ 
+	text-align: justify;
+	margin:0px 0 20px 0;
+	font-weight: 600;
+	font-size:1.2em;
+
+}
+
+.aboutgift ol{ 
+	text-align: justify;
+	margin:0px 0 20px 0;
+	font-weight: 600;
+	font-size:1.3em;
+
+}
+
+.giveclass_bg{
+position: relative;
+	padding-top: 50px;
+	padding-bottom: 50PX;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f8938f+0,ffdcdc+50,ffffff+100 */
+background: #f8938f; /* Old browsers */
+background: -moz-linear-gradient(top,  #f8938f 0%, #ffdcdc 50%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f8938f 0%,#ffdcdc 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f8938f 0%,#ffdcdc 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8938f', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+
+
+
+}
+
+.giveclass_bg h4{
+	text-align: center
+}
+
+
+.flower {
+	height: 30vw;
+	width: 24vw;
+  bottom: 4%;
+  left: 0%;
+  background-size: contain;
+  position: absolute;
+	background-repeat: no-repeat;
+background-position: bottom bottom;
+
+background-image: url(../images/flower.png);
+}
+.flower-2 {
+    height: 30vw;
+    width: 24vw;
+    bottom: 4%;
+    right: 0%;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: bottom bottom;
+    background-image: url(../images/flower-2.png);
+}
+
+
+
+.iframe{
+	padding-top: 40px;
+	background-color: #DB4932;
+	padding-bottom: 40PX;
+}
+
+
+.change_title{
+	
+	padding:50px 0 50px 0;
+}
+
+
+.change_bg {
+    width: 100%;
+    background-color: #ffe3e3f7;
+    padding: 0 0 30px 0;
+}
+.gift_bg{
+
+	width:100%;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffebdb+73,ffffff+100 */
+background: #ffebdb; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffebdb 73%, #ffffff 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffebdb 73%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffebdb 73%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffebdb', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+	padding:80px 0 50px 0;
+}
+.freebie_bg{
+	padding-top: 50px;
+	background-color:#EC6866;
+	background-image: url(../images/freebie-bg.png);
+	padding-bottom: 100px;
+}
+.freebielist {
+    margin-top: 40PX;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border-color: #F4D0CD;
+    border-width: 4px;
+    border-style: solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 40px;
+}
+
+.gift_bg  p{
+	
+	margin-left: 85px;
+}
+
+.gift_button {
+    font-size: 1.5em;
+    cursor: pointer;
+    background-color: #8b8b8b;
+    border-radius: 40px;
+    text-align: center;
+    width: 20vw;
+    font-size: 2.2em;
+    font-weight: 600;
+    color: #FFF;
+    line-height: 2em;
+    letter-spacing: 0em;
+}
+
+.gift_button:hover{
+
+	background-color: #a8a8a8;
+}
+
+
+.gift_bg ul li {
+	
+	margin-left: 50px;
+    list-style-image:url('../images/B-titile.png');
+}
+
+
+
+
+
+.aboutgift P {	margin-left: 0px;}
+.aboutgift h4{   text-align: center;
+	line-height: 30px;
+ }
+
+
+.underline{
+	border: #fff;
+	border-width: 2px;
+border-style: solid;
+width: 300px;
+margin: auto;
+border-radius: 99px;
+}
+
+.iframe .underline{
+	border: #fff;
+	border-width: 2px;
+border-style: solid;
+width: 50%;
+margin: auto;
+border-radius: 99px;
+}
+
+.att_bg {
+    padding-top: 40px;
+    background-color: #F2F2F2;
+    padding-bottom: 40px;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(195, 194, 194, 0.9);
+    overflow-y: scroll;
+    transition: 0.5s;
+}
+  
+  .overlay-content {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+	
+    padding-top: 40px;
+
+}
+  
+  .overlay a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 50px;
+	color: #333333;
+	display: block;
+	transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+	color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    z-index: 999;
+}
+  
+
+
+
+@media (max-width: 1650px){
+	.edm_top_001 { height:600px; }
+	
+
+	.flower {
+	
+		width: 20vw;
+	  bottom: 2%;
+	 
+	}
+	.flower-2 {
+		
+		width:  20vw;
+	  bottom: 2%;
+	 
+	}
+
+
+		.freebielist {
+		
+			height: 650px;
+		
+		}
+		.gift_button {
+	
+			width: 25vw;
+		
+		}
+
+		.main-view{
+			mask: linear-gradient(#000, transparent) ;
+			padding-top: 5vw;
+			min-height: 750px;
+		height: 100vh;
+		
+	
+		}
+
+		.lion {
+			top: -31vw;
+		}
+
+}
+@media (max-width: 1200px){
+	
+
+	.flower {
+		left: 1%;
+		width: 20vw;
+	  bottom: 0%;
+	  background-position: bottom bottom;
+	  height: 320px;
+	 
+	}
+	.flower-2 {
+		right: 1%;
+		height: 320px;
+		width:  20vw;
+	  bottom: 0%;
+	  background-position: bottom bottom;
+	}
+
+
+	.freebielist {
+		height: auto;
+		padding-bottom: 30px;
+	}
+		.gift_button {
+	
+			width: 25vw;
+		
+		}
+
+		.main-view {
+			mask: none;
+			background-color: #fff;
+			padding-top: 0vw;
+			min-height: 660px;
+			height: auto;
+		}
+
+		
+
+		.lion {
+		
+			top: -36vw;
+			
+		}
+		.gift_button {
+			width: 350px;
+		}
+
+		.overlay-content {
+			position: relative;
+			top: 0%;
+			width: 100%;
+			text-align: center;
+			margin-top: 55px;
+			padding-top: 40px;
+		}
+}
+
+
+
+@media (max-width: 768px){
+	
+	h1 {
+		font-size: 2.5em;
+		font-family: 'cwTeXYen', sans-serif;
+		font-weight: bold;
+	}
+	h2 {
+		margin-top: -20px;
+		font-size: 2.2em;
+		font-family: 'cwTeXYen', sans-serif;
+		font-weight: bold;
+		line-height: 43px;
+		padding: 20px 0px 0px 0px;
+	}
+
+	p {
+		text-align: justify;
+		margin: 5px 0 15px 0;
+		font-weight: 800;
+		font-size: 1em;
+	}
+	h4 {
+		text-align: left;
+		color: #DB4932;
+		font-family: 'cwTeXYen', sans-serif;
+		font-size: 2.5em;
+		font-weight: 800;
+		line-height: 0.3em;
+	}
+	h2 {
+		margin-top: -20px;
+		font-size: 1.5em;
+		font-family: 'cwTeXYen', sans-serif;
+		font-weight: bold;
+		line-height: 30px;
+	}
+
+	.flexbutton img{
+		width: 60%;
+		}
+		.flexbutton{
+		right: -30px;
+		bottom: 5%;
+			}
+	.iframe .underline {
+		border: #fff;
+		border-width: 1px;
+		border-style: solid;
+		width: 100%;
+		margin: auto;
+		border-radius: 99px;
+		margin: 12px auto 12px auto;
+	}
+	.giveclass_bg{
+	    position: relative;
+    padding-top: 50px;
+    padding-bottom: 0PX;
+    background: #f8938f;
+    background: -moz-linear-gradient(top, #f8938f 0%, #ffdcdc 50%, #ffffff 100%);
+    background: -webkit-linear-gradient(top, #f8938f 0%,#ffdcdc 50%,#ffffff 100%);
+    background: linear-gradient(to bottom, #ffdcdc 0%,#ffdcdc 50%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8938f', endColorstr='#ffffff',GradientType=0 );
+	padding: 30px 0 0px 0;
+		}
+
+		.underline {
+			border: #fff;
+			border-width: 1px;
+			border-style: solid;
+			width: 300px;
+			margin: auto;
+			border-radius: 99px;
+		}
+
+		.freebie_bg {
+			padding-top: 15px;
+			background-color: #EC6866;
+			background-image: url(../images/freebie-bg.png);
+			padding-bottom: 100px;
+			background-size: 80%;
+		}
+		.change_bg .row img {
+
+			width: 70%;
+		}
+		.iframe {
+			padding-top: 15px;
+			background-color: #DB4932;
+			padding-bottom: 20PX;
+		}
+
+		.freebie_bg img {
+
+			width: 50%;
+		}
+		.freebielist {
+			height: auto;
+			padding-bottom: 30px;
+			margin-top: 15PX;
+		}
+		.main-view {
+			min-height: 500px;
+			mask: none;
+			padding-top: 0vw;
+			background: #a7dcf7;
+			background: -moz-linear-gradient(top, #a7dcf7 0%, #ffffff 16%, #ffffff 84%, #f0c9ae 100%);
+			background: -webkit-linear-gradient(top, #a7dcf7 0%,#ffffff 16%,#ffffff 84%,#f0c9ae 100%);
+			background: linear-gradient(to bottom, #a7dcf7 0%,#ffffff 16%,#ffffff 84%,#f0c9ae 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7dcf7', endColorstr='#f0c9ae',GradientType=0 );
+		}
+
+
+	.aboutgift ol {
+		text-align: justify;
+		margin: 0px 0 20px 0;
+		font-weight: 600;
+		font-size: 1em;
+	}
+
+
+	
+	.att_bg ol{ 
+		text-align: justify;
+		margin:0px 0 20px 0;
+		font-weight: 600;
+		font-size:1em;
+	
+	}
+	.att_bg ol{ 
+		text-align: justify;
+		margin:0px 0 20px 0;
+		font-weight: 600;
+		font-size:1em;
+	
+	}
+	.gift_bg {
+		width: 100%;
+		background: #ffebdb;
+		background: -moz-linear-gradient(top, #ffebdb 73%, #ffffff 100%);
+		background: -webkit-linear-gradient(top, #ffebdb 73%,#ffffff 100%);
+		background: linear-gradient(to bottom, #ffebdb 73%,#ffffff 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffebdb', endColorstr='#ffffff',GradientType=0 );
+		padding: 40px 0 10px 0;
+	}
+	.gift_button {
+		width: 258px;
+		font-size: 1.6em;
+		letter-spacing: .1em;
+		line-height: 2.5em;
+	}
+	button p {
+		text-align: center;
+		line-height: 0px;
+		padding-top: 10px;
+		line-height: 1em;
+	}
+}
+
+@media screen and (max-height: 450px) {
+	.overlay {overflow-y: auto;}
+	.overlay a {font-size: 20px}
+	.overlay .closebtn {
+	font-size: 40px;
+	top: 15px;
+	right: 35px;
+	}
+  }
